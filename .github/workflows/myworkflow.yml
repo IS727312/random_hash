@@ -11,10 +11,10 @@ jobs:
         python-version: 3.11
     - name: Install dependencies
       run: |
-      make install
+        make install
     - name: Lint
       run: |
-      make lint
+        make lint
     - name: Test
       run: |
-      make test
+        make test
