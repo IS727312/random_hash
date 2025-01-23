@@ -1,3 +1,3 @@
-from hello import add
+from hello import find_hash_with_two_zeros
 def test_add():
-    assert 2 == add(1, 1)
+    assert find_hash_with_two_zeros()
